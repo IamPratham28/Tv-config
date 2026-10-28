@@ -1,23 +1,47 @@
 {
-  "version": 2,
-  "maintenance": { "enabled": false, "message": "Back soon!" },
-  "tiles": [
+  "version": 3,
+  "maintenance": {
+    "enabled": false,
+    "message": "System upgrade chal raha hai! Back in 10 mins."
+  },
+  "sections": [
     {
-      "id": "yt",
-      "title": "YouTube TV",
-      "icon": "youtube",
-      "color": "#b91c1c",
-      "urls": ["https://www.youtube.com/tv"]
-    },
-    {
-      "id": "cricket",
-      "title": "Cricket",
-      "subtitle": "Live scores and match centre",
-      "icon": "cricket",
-      "color": "#15803d",
-      "urls": [
-        "https://www.cricbuzz.com/cricket-match/live-scores",
-        "https://www.espncricinfo.com/live-cricket-score"
+      "title": "Streaming & Live TV",
+      "tiles": [
+        {
+          "id": "yt",
+          "title": "YouTube TV",
+          "subtitle": "Leanback 1080p 60fps Official Interface",
+          "icon": "youtube",
+          "color": "#b91c1c",
+          "urls": [
+            "https://www.youtube.com/tv"
+          ]
+        },
+        {
+          "id": "cricket",
+          "title": "Cricket Live",
+          "subtitle": "Live scores, commentary & match streams",
+          "icon": "cricket",
+          "color": "#15803d",
+          "urls": [
+            "https://www.cricbuzz.com/cricket-match/live-scores",
+            "https://www.espncricinfo.com/live-cricket-score",
+            "https://allrounderlive.in/"
+          ]
+        },
+        {
+          "id": "home",
+          "title": "My Media Server",
+          "subtitle": "Movies, Web Series & Cloud Cinema (Auto-Failover)",
+          "icon": "film",
+          "color": "#0f766e",
+          "urls": [
+            "https://arise-str.vercel.app/",
+            "https://hicine.biz/",
+            "https://watch-v2.autoembed.app/watch/tv"
+          ]
+        }
       ]
     }
   ]
