@@ -1,23 +1,4 @@
 {
-  "version": 1,
-  "maintenance": { "enabled": false, "message": "Back soon!" },
-  "tiles": [
-    {
-      "id": "yt",
-      "title": "YouTube TV",
-      "icon": "youtube",
-      "urls": ["https://www.youtube.com/tv"]
-    },
-    {
-      "id": "home",
-      "title": "My Media Server",
-      "icon": "film",
-      "urls": [
-        
-      ]
-    }
-  ]
-}{
   "version": 2,
   "maintenance": { "enabled": false, "message": "Back soon!" },
   "tiles": [
@@ -53,3 +34,4 @@
     }
   ]
 }
+s
