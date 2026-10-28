@@ -17,21 +17,8 @@
       "color": "#15803d",
       "urls": [
         "https://www.cricbuzz.com/cricket-match/live-scores",
-        "https://www.espncricinfo.com/live-cricket-score",
-        "https://allrounderlive.in/"
-      ]
-    },
-    {
-      "id": "home",
-      "title": "My Media Server",
-      "icon": "film",
-      "color": "#0f766e",
-      "urls": [
-        "https://arise-str.vercel.app/",
-        "https://hicine.biz/",
-         "https://watch-v2.autoembed.app/watch/tv"
+        "https://www.espncricinfo.com/live-cricket-score"
       ]
     }
   ]
 }
-s
